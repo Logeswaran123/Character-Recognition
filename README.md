@@ -16,6 +16,6 @@ East (abbreviation for Efficient and Accurate Scene Text Detector) is a deeplear
 gives the geometry (like top, bottom, right, left, offset pt.) and confidence scores. 
 
 Links for better understanding:
-* [Tom Hoag]<https://medium.com/@tomhoag/opencv-text-detection-548950e3494c>
-* [Adrian from pyimagesearch]<https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/>
-* [Cornell University]<https://arxiv.org/abs/1704.03155>
+* [Tom Hoag](https://medium.com/@tomhoag/opencv-text-detection-548950e3494c)
+* [Adrian from pyimagesearch](https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/)
+* [Cornell University](https://arxiv.org/abs/1704.03155)

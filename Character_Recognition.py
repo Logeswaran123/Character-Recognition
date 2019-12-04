@@ -16,7 +16,7 @@ ap.add_argument("-p", "--padding", type=float, default=0.0,
 	help="amount of padding to add to each border of ROI")
 args = vars(ap.parse_args())
 
-# Start here
+
 # import packages
 from imutils.object_detection import non_max_suppression
 import numpy as np
@@ -82,17 +82,17 @@ def decode_predictions(scores, geometry):
 	return (rects, confidences)
 
 # load the input image
-#get the dimensions of loaded image
+#get dimensions of loaded image
 image = cv2.imread(input('Enter the path for image data: '))
 orig = image.copy()
 (origH, origW) = image.shape[:2]
 
-# set the new width and height and then get the change
+# set new width and height and get the change
 (newW, newH) = (args["width"], args["height"])
 rW = origW / float(newW)
 rH = origH / float(newH)
 
-# resize the image and get new dimensions of image
+# resize the image and get new dimensions
 image = cv2.resize(image, (newW, newH))
 (H, W) = image.shape[:2]
 
